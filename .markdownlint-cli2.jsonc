@@ -1,0 +1,6 @@
+{
+  "customRules": [
+    "markdownlint-rule-extended-ascii",
+    "./custom-rules/custom-rule.cjs"
+  ]
+}

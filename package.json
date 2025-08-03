@@ -1,0 +1,14 @@
+{
+  "name": "example-vscode-markdownlint-custom-rule",
+  "version": "0.0.1",
+  "description": "Example showing the use of markdownlint custom rules with the VS Code markdownlint extension",
+  "license": "MIT",
+  "scripts": {
+    "test": "markdownlint-cli2 README.md"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "0.18.1",
+    "markdownlint-rule-extended-ascii": "0.2.1"
+  },
+  "private": true
+}
